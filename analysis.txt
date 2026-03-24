@@ -1,0 +1,157 @@
+Excel Columns: ['單字', '中文解釋 + 音標 +詞性變化+搭配詞+ 例句', '詞類 (Parts of Speech)']
+Excel Head (First 5 rows):
+           單字                                                                                                                                    中文解釋 + 音標 +詞性變化+搭配詞+ 例句 詞類 (Parts of Speech)
+0  abbreviate                  【解釋】縮寫、使簡短 【音標】/əˈbriːvieɪt/ 【詞性變化】名詞 abbreviation 【搭配詞】abbreviate a word (縮寫單字) 【例句】Information is often abbreviated to info. (Inferred)                   v.
+1    emission                          【解釋】排放、散發 【音標】/iˈmɪʃən/ 【詞性變化】動詞 emit 【搭配詞】carbon emission (碳排放) 【例句】The government is trying to reduce gas emissions. (Inferred)                   n.
+2     abandon                              【解釋】放棄、遺棄 【音標】/əˈbændən/ 【詞性變化】過去式 abandoned 【搭配詞】abandon a plan (放棄計劃) 【例句】The baby was abandoned by his parents. (Inferred)                   v.
+3   candidate            【解釋】候選人、應試者 【音標】/ˈkændɪdət/ 【詞性變化】複數 candidates 【搭配詞】presidential candidate (總統候選人) 【例句】There are three candidates for the position. (Inferred)                   n.
+4   broadcast  【解釋】廣播、播放；廣播節目 【音標】/ˈbrɔːdkɑːst/ 【詞性變化】broadcast-broadcast-broadcast (動詞三態相同) 【搭配詞】live broadcast (實況轉播) 【例句】The news is broadcast every hour. (Inferred)                v./n.
+Total Pages: 116
+
+--- Page 1 Content Sample ---
+大學入學考試中心
+高中英文參考詞彙表
+－111 學年度起適用－
+中華民國 109 年 7 月
+著作權屬財團法人大學入學考試中心基金會所有，僅供非營
+利目的使用，轉載請註明出處。若作為營利目的使用，應事
+前經由財團法人大學入學考試中心基金會書面同意授權。
+
+--- Page 5 Content Sample ---
+高中英文參考詞彙表
+高中英文參考詞彙表
+－111 學年度起適用－
+編修說明
+前言
+111學年度起，學科能力測驗英文考科（簡稱學測英文）與高中英語聽力測驗
+（簡稱英聽），即依據108學年度實施之「十二年國民基本教育課程綱要國民中小學
+暨普通型高級中等學校語文領域—英語文」（簡稱「英語文課綱」）命題。《高中
+英文參考詞彙表》長期以來做為大學入學考試中心英文科相關測驗的命題參考資料
+之一，也是高中教學與學生學習的參考內容。
+原《高中英文參考詞彙表》（簡稱《91參考詞彙表》或《91年版》）乃是民國89
+至91年間，由鄭恆雄教授等執行「大考中心高中英文參考詞彙表編修研究計畫」1之
+成果，至今業已使用多年。考量隨時間變遷，許多英語文詞彙近年來逐漸頻繁出現
+於日常生活中（如：custody, icon, incredible, ongoing, online, portfolio, sensor, terrorism,
+venue, workout等）；且多年來，陸續有高中教師反映91參考詞彙表中部分詞彙目前
+較為罕用，可考慮做若干的調整。綜合前述各項因素及因應語言使用之變化，編修
+《91參考詞彙表》確有其必要性。
+此更新版《108參考詞彙表》大致依循了《91參考詞彙表》之編輯原則，舊版詞
+彙表運用與反映的是當時之語料資料，但隨時空環境變遷至今，語料的蒐集與內容
+已有發展與改變。本版編纂過程歷經專案研究計畫研發、學科專家座談、大學教授
+及高中教師問卷調查等程序後最終順利完成。主要編纂方式是以語料庫字表、專家
+編輯之字表、字典及其詞頻表、高中教科書與英語分級讀本語料、歷年大學入學考
+試相關試題等五大類，共計約30餘種參考資料（詳：參考書目），作為詞彙篩選參
+考，我國文化背景、教學層面等多方因素亦同時納入篩選考量，而後據此針對各個
+詞彙逐一進行檢視。以下茲就新版參考詞彙表編修流程及編輯原則加以說明。
+1 本計畫由臺灣大學外文系鄭恆雄教授主持，研究成員包括政治大學英文系張郇慧教授、臺灣師範大學英語
+系程玉秀教授、臺北市立第一女子高級中學顧英秀老師（依姓氏筆劃順序排列）。
+I
+
+--- Page 10 Content Sample ---
+高中英文參考詞彙表
+• A New General Service List (1.01)
+Browne, C., Culligan, B., & Phillips, J. (2013). New general service list. Retrieved
+from http://www.newgeneralservicelist.org/
+• Collins COBUILD English Dictionary Frequently Wordlist
+Collins COBUILD advanced learner’s English dictionary. (2014). Glasgow:
+HarperCollins.
+• English vocabulary profile. (n.d.). Retrieved from
+https://www.englishprofile.org/wordlists.
+• Longman communication 3000. (2007). Harlow, England: Pearson Education Ltd.
+• New GSL-2500
+Brezina, V., & Gablasova, D. (2015). Is there a core general vocabulary? Introducing
+the New General Service List. Applied Linguistics, 36(1). 1-22.
+• The Academic Word List. (1998).
+Coxhead, A. (1998). An academic word list (Vol. 18). School of Linguistics and
+Applied Language Studies, Victoria University of Wellington.
+• Oxford 3000 and 5000: OxfordLearnersDictionaries.com. (n.d.). Retrieved 2019, from
+https://www.oxfordlearnersdictionaries.com/wordlists/oxford3000-5000.
+• 教育部（2018）。國民中小學最基本之1200個字詞，取自十二年國民基本教育
+課程綱要國民中小學暨普通型高級中等學校語文領域─英語文。取自
+https://www.naer.edu.tw/fi les/15-1000-14379,c639-1.php?Lang=zh-tw
+• 香港中學文憑參考資料。取自http://www.edb.gov.hk/en/curriculum-
+development/kla/eng-edu/references-resources.html
+• 語言訓練測驗中心全民英檢參考字表（初、中、中高級）。取自
+https://www.lttc.ntu.edu.tw/wordlist.htm
+• 鄭恆雄、張郇慧、程玉秀、顧英秀（2001）。大考中心高中英文常用詞彙表編
+修研究計畫報告（第一期）。臺北：財團法人大學入學考試中心。
+• 鄭恆雄、張郇慧、程玉秀、顧英秀（2002）。大考中心高中英文參考詞彙表編
+修研究計畫報告（第二期）。臺北：財團法人大學入學考試中心。
+三、字典
+• Cambridge Dictionary: Find definitions, meanings & translations. (n.d.). Retrieved from
+https://dictionary.cambridge.org/us/
+• Collins. (n.d.). Collins online English dictionary.
+https://www.collinsdictionary.com/dictionary/english.
+• Longman Dictionary of Contemporary English | LDOCE. (n.d.). Retrieved from
+https://www.ldoceonline.com/
+• Macmillan Dictionary: Free English Dictionary and Thesaurus Online. (n.d.). Retrieved
+from https://www.macmillandictionary.com/.
+• Merriam-Webster’s Collegiate Dictionary.(n.d.). Retrieved from http://www.merriam-
+web
+
+--- Page 20 Content Sample ---
+高中英文參考詞彙表
+stand v./n. telephone/phone n./v. together adv.
+star n./v. television/TV n. toilet n.
+start v./n. tell v. tomato n.
+station n. temple n. tomorrow adv./n.
+stay v./n. tennis n. tonight adv./n.
+still adv./adj. terrible adj. too adv.
+stop v./n. test n./v. tool n.
+store n./v. than conj./prep. tooth n.
+story n. thank v./n. top n./adj./v.
+straight adv./adj./n. that conj./pron./adv./adj. topic n.
+strange adj. the art. total adj./n./v.
+street n. theater n. touch n./v.
+string n. then adv./adj. towel n./v.
+strong adj. there adv./n. town n.
+student n. these pron./adj. toy n.
+study n./v. they (them, their, traffic n./v.
+stupid adj. theirs, themselves) train n./v.
+pron.
+subject n. treat(ment) v./(n.)
+thick adj.
+successful adj. tree n.
+thin adj.
+sugar n. trip n./v.
+thing n.
+sun n./v. trouble n./v.
+think v.
+sunny adj. truck n.
+third adj./n./adv.
+supermarket n. try v./n.
+this pron./adv./adj.
+sure adj./adv. T-shirt n.
+those pron./adj.
+surprise n./v. turn v./n.
+though conj./adv.
+surprised adj. twice adv.
+thousand n./adj.
+sweet adj. type n./v.
+throat n.
+table n. uncle n.
+through prep./adv.
+tail n. under prep./adv.
+throw v./n.
+take v. understand v.
+ticket n.
+talk v./n. uniform n.
+tidy adj./v.
+tall adj. until conj./prep.
+tie n./v.
+tape n. up adv./prep./adj./v./n.
+tiger n.
+taste n./v. use v./n.
+time n./v.
+taxicab/taxi/cab n. useful adj.
+tip n./v.
+tea n. usually adv.
+tired adj.
+teach v. vegetable n.
+to prep.
+teacher n. very adv.
+today adv./n.
+team n./v. video n./v./adj.
+toe n.
+teenager n. violin n.
+8
