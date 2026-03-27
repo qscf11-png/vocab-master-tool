@@ -87,6 +87,9 @@ def build_html():
     <script id="math-data" type="application/json">""")
     content.append(math_js)
     content.append(r"""</script>
+    <script id="idiom-data" type="application/json">""")
+    content.append(idiom_js)
+    content.append(r"""</script>
 
     <script type="text/javascript">
         // 語音朗讀函式
