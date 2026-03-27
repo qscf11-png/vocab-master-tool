@@ -317,6 +317,47 @@
                     setZh2enSubmitted(false);
                 }
 
+                // ==================== 自動朗讀 ====================
+                // 英翻中正面出現時自動朗讀單字
+                useEffect(function() {
+                    if(vocabList.length > 0 && !isFlipped && !isSettingUp && !isFinished && quizMode === 'en2zh') {
+                        setTimeout(function() { speak(vocabList[0].w, speechRate); }, 300);
+                    }
+                }, [vocabList.length > 0 && vocabList[0] && vocabList[0].w, isFlipped, quizMode]);
+
+                // 翻面後自動朗讀例句
+                useEffect(function() {
+                    if(vocabList.length > 0 && isFlipped && !isFinished) {
+                        var curr = vocabList[0];
+                        if(curr.x) {
+                            setTimeout(function() { speak(curr.x, speechRate); }, 300);
+                        }
+                    }
+                }, [isFlipped]);
+
+                // ==================== 鍵盤快速鍵 ====================
+                useEffect(function() {
+                    function handleKey(e) {
+                        // 如果正在輸入框打字（中翻英填空），不攔截
+                        if(e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA' || e.target.tagName === 'SELECT') return;
+                        // 只在卡片頁面有效
+                        if(vocabList.length === 0 || isSettingUp || isFinished) return;
+
+                        if(e.key === ' ' || e.code === 'Space') {
+                            e.preventDefault();
+                            if(!isFlipped) setIsFlipped(true);
+                        }
+                        if(isFlipped) {
+                            if(e.key === '1') { e.preventDefault(); handleSRS('again'); }
+                            if(e.key === '2') { e.preventDefault(); handleSRS('hard'); }
+                            if(e.key === '3') { e.preventDefault(); handleSRS('good'); }
+                            if(e.key === '4') { e.preventDefault(); handleSRS('easy'); }
+                        }
+                    }
+                    window.addEventListener('keydown', handleKey);
+                    return function() { window.removeEventListener('keydown', handleKey); };
+                });
+
                 // ==================== 首頁 ====================
                 if(vocabList.length === 0 && !isSettingUp && !isFinished) {
                     return h('div', { className: "flex flex-col items-center justify-center min-h-screen p-6" },
