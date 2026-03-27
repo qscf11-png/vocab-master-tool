@@ -641,7 +641,6 @@ def build_html():
                         )
                     )
                 );
-                );
             }
             ReactDOM.createRoot(document.getElementById('root')).render(h(App));
         })();
