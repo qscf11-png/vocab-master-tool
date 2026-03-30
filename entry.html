@@ -3,46 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>全能學習大師 - 選擇練習模組</title>
+    <title>Vocab Master Portal - 學習門戶</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&family=Noto+Sans+TC:wght@400;700;900&display=swap" rel="stylesheet">
     <style>
-        body { font-family: 'Outfit', 'Noto Sans TC', sans-serif; background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%); min-height: 100vh; display: flex; align-items: center; justify-content: center; overflow: hidden; }
-        .glass { background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.3); box-shadow: 0 8px 32px rgba(0,0,0,0.05); }
-        .hero-card { transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); cursor: pointer; }
-        .hero-card:hover { transform: translateY(-12px) scale(1.02); box-shadow: 0 20px 40px rgba(99, 102, 241, 0.15); }
+        body { font-family: 'Outfit', 'Noto Sans TC', sans-serif; background: #0f172a; color: white; min-height: 100vh; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+        .bg-glow { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: radial-gradient(circle at 50% 50%, #1e293b 0%, #0f172a 100%); z-index: -1; }
+        .blob { position: absolute; width: 600px; height: 600px; background: #6366f1; filter: blur(120px); opacity: 0.15; border-radius: 50%; animation: float 20s infinite alternate; }
+        @keyframes float { from { transform: translate(-10%, -10%); } to { transform: translate(10%, 10%); } }
+        .glass-card { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(20px); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 4rem; transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); }
+        .nav-item { position: relative; overflow: hidden; transition: all 0.3s; }
+        .nav-item:hover { transform: translateY(-5px); background: rgba(255, 255, 255, 0.08); border-color: rgba(255, 255, 255, 0.2); }
     </style>
 </head>
-<body class="p-6">
-    <div class="max-w-4xl w-full">
-        <div class="text-center mb-16">
-            <h1 class="text-6xl font-black text-slate-900 mb-4 tracking-tighter">全能學習大師</h1>
-            <p class="text-slate-400 font-bold text-lg">Vocab Master • Version 3.8 Dual Mode</p>
-        </div>
-
-        <div class="grid md:grid-cols-2 gap-8">
-            <!-- 英文+成語版 (恢復舊版功能) -->
-            <div onclick="location.href='index.html'" class="hero-card glass rounded-[3rem] p-10 flex flex-col items-center text-center border-t-4 border-indigo-500">
-                <div class="w-20 h-20 bg-indigo-50 rounded-3xl flex items-center justify-center mb-8">
-                    <span class="text-4xl text-indigo-600">🔤</span>
+<body>
+    <div class="bg-glow"></div>
+    <div class="blob"></div>
+    
+    <div class="glass-card max-w-4xl w-full p-16 shadow-2xl text-center">
+        <h1 class="text-6xl font-black mb-4 tracking-tighter bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-emerald-400">Vocab Master</h1>
+        <p class="text-slate-400 font-bold mb-16 text-lg tracking-widest uppercase">物理隔離 · 三位一體核心</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- 英文專區 -->
+            <a href="index.html" class="nav-item glass-card p-10 flex flex-col items-center">
+                <div class="w-20 h-20 bg-indigo-600 rounded-3xl mb-6 flex items-center justify-center shadow-lg shadow-indigo-500/20">
+                    <span class="text-4xl font-black">E</span>
                 </div>
-                <h2 class="text-3xl font-black mb-4">英文 & 成語</h2>
-                <p class="text-slate-500 font-medium mb-8">恢復最完整功能：Level 篩選、字首提示、填空暗示。最純粹的語文練習體驗。</p>
-                <div class="mt-auto w-full py-4 bg-indigo-600 text-white rounded-2xl font-black shadow-lg shadow-indigo-100 uppercase tracking-widest text-sm">進入單字本</div>
-            </div>
-
-            <!-- 數學專區 (獨立模組) -->
-            <div onclick="location.href='math.html'" class="hero-card glass rounded-[3rem] p-10 flex flex-col items-center text-center border-t-4 border-slate-900">
-                <div class="w-20 h-20 bg-slate-100 rounded-3xl flex items-center justify-center mb-8">
-                    <span class="text-4xl">📐</span>
+                <h3 class="text-2xl font-black mb-2">英文單字</h3>
+                <p class="text-slate-500 text-sm font-bold">閃卡 / 填空 / 朗讀</p>
+            </a>
+            
+            <!-- 成語專區 -->
+            <a href="idiom.html" class="nav-item glass-card p-10 flex flex-col items-center">
+                <div class="w-20 h-20 bg-emerald-600 rounded-3xl mb-6 flex items-center justify-center shadow-lg shadow-emerald-500/20">
+                    <span class="text-4xl font-black">成</span>
                 </div>
-                <h2 class="text-3xl font-black mb-4">國中數學</h2>
-                <p class="text-slate-500 font-medium mb-8">獨立數學專區：支援 KaTeX 美化排版。畢氏定理、二次函數觀念測驗。</p>
-                <div class="mt-auto w-full py-4 bg-slate-900 text-white rounded-2xl font-black shadow-lg shadow-slate-200 uppercase tracking-widest text-sm">進入數學專區</div>
-            </div>
+                <h3 class="text-2xl font-black mb-2">成語大師</h3>
+                <p class="text-slate-500 text-sm font-bold">傳統智慧 / 釋義練習</p>
+            </a>
+            
+            <!-- 數學專區 -->
+            <a href="math.html" class="nav-item glass-card p-10 flex flex-col items-center">
+                <div class="w-20 h-20 bg-sky-500 rounded-3xl mb-6 flex items-center justify-center shadow-lg shadow-sky-500/20">
+                    <span class="text-4xl font-black">Σ</span>
+                </div>
+                <h3 class="text-2xl font-black mb-2">數學觀念</h3>
+                <p class="text-slate-500 text-sm font-bold">SRS 評分 / 公式渲染</p>
+            </a>
         </div>
-
-        <p class="text-center mt-12 text-slate-300 font-bold text-xs uppercase tracking-widest">Designed for Premium Learning Experience</p>
+        
+        <div class="mt-20 pt-8 border-t border-white/5">
+            <p class="text-slate-600 text-xs font-black uppercase tracking-widest">Ground Environment Ready · No Conflict Architecture</p>
+        </div>
     </div>
 </body>
 </html>
