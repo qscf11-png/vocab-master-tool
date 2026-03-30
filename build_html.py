@@ -20,6 +20,17 @@ def build_html():
                     js_str = content[start:end+1]
                     return cc.convert(js_str)
         except Exception as e:
+            pass # Fallback to cp950
+        
+        try:
+            with open(path, "r", encoding="cp950", errors="ignore") as f:
+                content = f.read().strip()
+                start = content.find('[')
+                end = content.rfind(']')
+                if start != -1 and end != -1:
+                    js_str = content[start:end+1]
+                    return cc.convert(js_str)
+        except Exception as e:
             print(f"Error reading {path}: {e}")
         return "[]"
 
@@ -715,6 +726,47 @@ def build_html():
                 const [limit, setLimit] = useState(20);
                 const [stats, setStats] = useState({ again: 0, hard: 0, good: 0, easy: 0 });
                 const [totalInitial, setTotalInitial] = useState(0);
+                const [lvlFilter, setLvlFilter] = useState('all');
+                const [chapterFilter, setChapterFilter] = useState('all');
+
+                const CHAPTER_MAP = {
+                    "7上": {
+                        "1": "第一章：整數的運算與科學記號",
+                        "2": "第二章：分數的運算",
+                        "3": "第三章：一元一次方程式"
+                    },
+                    "7下": {
+                        "1": "第一章：二元一次聯立方程式",
+                        "2": "第二章：直角坐標與二元一次方程式的圖形",
+                        "3": "第三章：比例（比與比例式）",
+                        "4": "第四章：一元一次不等式",
+                        "5": "第五章：統計圖表與資料分析",
+                        "6": "第六章：幾何圖形與三視圖"
+                    },
+                    "8上": {
+                        "1": "第一章：乘法公式與多項式",
+                        "2": "第二章：平方根與畢氏定理",
+                        "3": "第三章：因式分解",
+                        "4": "第四章：一元二次方程式",
+                        "5": "第五章：統計資料處理"
+                    },
+                    "8下": {
+                        "1": "第一章：數列與級數",
+                        "2": "第二章：函數及其圖形",
+                        "3": "第三章：三角形的基本性質",
+                        "4": "第四章：平行與四邊形"
+                    },
+                    "9上": {
+                        "1": "第一章：相似形與三角比",
+                        "2": "第二章：圓形",
+                        "3": "第三章：幾何與證明"
+                    },
+                    "9下": {
+                        "1": "第一章：二次函數",
+                        "2": "第二章：統計與機率",
+                        "3": "第三章：立體圖形"
+                    }
+                };
 
                 // Cursor effect only for desktop
                 useEffect(() => {
@@ -735,6 +787,7 @@ def build_html():
                             const data = JSON.parse(saved);
                             if (data.quizList && data.quizList.length > 0) {
                                 setQuizList(data.quizList); setStats(data.stats); setTotalInitial(data.totalInitial || data.quizList.length); 
+                                setLvlFilter(data.lvlFilter || 'all'); setChapterFilter(data.chapterFilter || 'all');
                                 setView('quiz');
                             }
                         } catch(e) {}
@@ -743,7 +796,7 @@ def build_html():
 
                 useEffect(() => {
                     if (view === 'quiz') {
-                        localStorage.setItem('math_master_gold_save_v3', JSON.stringify({ quizList, stats, totalInitial }));
+                        localStorage.setItem('math_master_gold_save_v3', JSON.stringify({ quizList, stats, totalInitial, lvlFilter, chapterFilter }));
                     }
                     if (view === 'quiz') {
                         // Render KaTeX after DOM updates
@@ -762,7 +815,14 @@ def build_html():
 
                 const startQuiz = () => {
                     let filtered = [...db];
+                    if (lvlFilter !== 'all') filtered = filtered.filter(i => String(i.l) === lvlFilter);
+                    if (chapterFilter !== 'all') filtered = filtered.filter(i => String(i.c) === chapterFilter);
+                    
                     const shuffled = filtered.sort(() => Math.random() - 0.5).slice(0, parseInt(limit));
+                    if (shuffled.length === 0) {
+                        alert("依目前的條件（年級/章節）無法找到任何題目！");
+                        return;
+                    }
                     setQuizList(shuffled); setTotalInitial(shuffled.length); setStats({ again: 0, hard: 0, good: 0, easy: 0 });
                     setView('quiz'); setIsFlipped(false);
                 };
@@ -869,8 +929,37 @@ def build_html():
 
                 if (view === 'setup') return h('div', { className: "flex flex-col items-center justify-center min-h-screen p-6" },
                     h('div', { className: "glass max-w-sm w-full rounded-[3.5rem] p-10" },
-                        h('h2', { className: "text-3xl font-black mb-10 text-center tracking-tight text-sky-900" }, "客製化學習"),
-                        h('div', { className: "mb-12 text-left" }, 
+                        h('h2', { className: "text-3xl font-black mb-6 text-center tracking-tight text-sky-900" }, "客製化學習"),
+                        
+                        h('div', { className: "mb-6 text-left" }, 
+                            h('label', { className: "info-label" }, "選擇年級"), 
+                            h('select', { 
+                                value: lvlFilter, 
+                                onChange: e => { setLvlFilter(e.target.value); setChapterFilter('all'); }, 
+                                className: "w-full p-4 rounded-[1.5rem] bg-white border border-sky-100 font-black shadow-inner mb-4 focus:ring-2 focus:ring-sky-300 outline-none text-sky-900" 
+                            }, 
+                                h('option', { value: 'all' }, "全部年級 (All)"), 
+                                [...new Set(db.map(i => i.l).filter(Boolean))].sort().map(l => h('option', { key: l, value: l }, l))
+                            ),
+                            h('label', { className: "info-label" }, "選擇章節"),
+                            h('select', { 
+                                value: chapterFilter, 
+                                onChange: e => setChapterFilter(e.target.value), 
+                                className: "w-full p-4 rounded-[1.5rem] bg-white border border-sky-100 font-black shadow-inner focus:ring-2 focus:ring-sky-300 outline-none text-sky-900" 
+                            }, 
+                                h('option', { value: 'all' }, "所有章節 (All)"),
+                                (lvlFilter === 'all' 
+                                    ? [...new Set(db.map(i => i.c).filter(Boolean))].sort((a,b)=>String(a).localeCompare(String(b), undefined, {numeric:true}))
+                                    : [...new Set(db.filter(i => String(i.l) === lvlFilter).map(i => i.c).filter(Boolean))].sort((a,b)=>String(a).localeCompare(String(b), undefined, {numeric:true}))
+                                ).map(c => {
+                                    const lvlMap = CHAPTER_MAP[lvlFilter];
+                                    const chapterName = (lvlMap && lvlMap[c]) ? lvlMap[c] : "第 "+c+" 章";
+                                    return h('option', { key: c, value: c }, chapterName);
+                                })
+                            )
+                        ),
+
+                        h('div', { className: "mb-10 text-left" }, 
                             h('div', { className: "flex justify-between items-end mb-4" }, 
                                 h('label', { className: "info-label" }, "練習數量"), 
                                 h('span', { className: "font-black text-2xl text-sky-600" }, limit)
