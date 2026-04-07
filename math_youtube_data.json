@@ -1,0 +1,567 @@
+[
+  {
+    "grade": "國一",
+    "semester": "上學期",
+    "videos": [
+      {
+        "title": "國一上1-1【數與數線】知識點1",
+        "url": "https://www.youtube.com/watch?v=cpqjUlP9YPo",
+        "chapter": "1-1"
+      },
+      {
+        "title": "國一上1－1【數與數線】知識點2",
+        "url": "https://www.youtube.com/watch?v=SrMzQkLajxI",
+        "chapter": "1-1"
+      },
+      {
+        "title": "國一上1-2【整數的加減】知識點1",
+        "url": "https://www.youtube.com/watch?v=4BhVJ0uKW58",
+        "chapter": "1-2"
+      },
+      {
+        "title": "國一上1-2知識點1【範例9補拍上傳】",
+        "url": "https://www.youtube.com/watch?v=q-QmbequuXg",
+        "chapter": "1-2"
+      },
+      {
+        "title": "國一上1-2【整數的加減】知識點2",
+        "url": "https://www.youtube.com/watch?v=EBchJiurOT0",
+        "chapter": "1-2"
+      },
+      {
+        "title": "國一上1-3【整數的四則】知識點1",
+        "url": "https://www.youtube.com/watch?v=dgcP3P6pdRQ",
+        "chapter": "1-3"
+      },
+      {
+        "title": "國一上1-4【指數律與科學記號】知識點1",
+        "url": "https://www.youtube.com/watch?v=UdROW9PkWnY",
+        "chapter": "1-4"
+      },
+      {
+        "title": "國一上1-4【指數律與科學記號】知識點2",
+        "url": "https://www.youtube.com/watch?v=QJ_ir5UPgwc",
+        "chapter": "1-4"
+      },
+      {
+        "title": "國一上1-4【指數律與科學記號】挑戰題1 (補拍上傳)",
+        "url": "https://www.youtube.com/watch?v=FtyeVEr17Fg",
+        "chapter": "1-4"
+      },
+      {
+        "title": "國一上2 -1【因數與倍數】知識點1",
+        "url": "https://www.youtube.com/watch?v=caWwZMiy098",
+        "chapter": "2-1"
+      },
+      {
+        "title": "國一上2-1【因數與倍數】知識點2",
+        "url": "https://www.youtube.com/watch?v=iRxc1BFg8_c",
+        "chapter": "2-1"
+      },
+      {
+        "title": "國一上2-2【公因數與公倍數】知識點1",
+        "url": "https://www.youtube.com/watch?v=Pr-kEa9mOdI",
+        "chapter": "2-2"
+      },
+      {
+        "title": "國一上2 -2【公因數與公倍數】知識點2",
+        "url": "https://www.youtube.com/watch?v=b-bAM4FRz9k",
+        "chapter": "2-2"
+      },
+      {
+        "title": "國一上2－3【分數的加減】知識點1",
+        "url": "https://www.youtube.com/watch?v=vajHikZXuH0",
+        "chapter": "2-3"
+      },
+      {
+        "title": "國一上2- 3【分數的加減】知識點2",
+        "url": "https://www.youtube.com/watch?v=ozLM5Ao5l2g",
+        "chapter": "2-3"
+      },
+      {
+        "title": "國一上2-4【分數的乘除與四則】知識點1",
+        "url": "https://www.youtube.com/watch?v=wx4ia3YovX8",
+        "chapter": "2-4"
+      },
+      {
+        "title": "國一上2-4【分數的乘除運算】知識點2",
+        "url": "https://www.youtube.com/watch?v=VHqFlPCaQL4",
+        "chapter": "2-4"
+      },
+      {
+        "title": "國一上3-1知識點1【以符號列式】",
+        "url": "https://www.youtube.com/watch?v=iBedXmNFnSk",
+        "chapter": "3-1"
+      },
+      {
+        "title": "國一上3-1知識點2【一元一次式化簡】",
+        "url": "https://www.youtube.com/watch?v=4fxAjRJeeJw",
+        "chapter": "3-1"
+      },
+      {
+        "title": "國一上3-2知識點1【等量公理】",
+        "url": "https://www.youtube.com/watch?v=PIfRMUzEM0k",
+        "chapter": "3-2"
+      },
+      {
+        "title": "國一上3-2知識點2【解一元一次方程式】",
+        "url": "https://www.youtube.com/watch?v=tG4El1Fkvkg",
+        "chapter": "3-2"
+      },
+      {
+        "title": "國一上3-3知識點1【一元一次方程式的應用】",
+        "url": "https://www.youtube.com/watch?v=TveYGsIJVqw",
+        "chapter": "3-3"
+      },
+      {
+        "title": "國一上3-3知識點2【一元一次應用問題整理】",
+        "url": "https://www.youtube.com/watch?v=i6-eL_1pjGI",
+        "chapter": "3-3"
+      },
+      {
+        "title": "國一上4-1知識點1【幾何圖形:線對稱圖形】",
+        "url": "https://www.youtube.com/watch?v=qtrmfjU1zgU",
+        "chapter": "4-1"
+      },
+      {
+        "title": "國一上4 -1知識點2【三視圖】",
+        "url": "https://www.youtube.com/watch?v=JO69mU3d5CM",
+        "chapter": "4-1"
+      },
+      {
+        "title": "國一上2-1挑戰題3(補拍)",
+        "url": "https://www.youtube.com/watch?v=Dtenbkgo6UY",
+        "chapter": "2-1"
+      }
+    ]
+  },
+  {
+    "grade": "國一",
+    "semester": "下學期",
+    "videos": [
+      {
+        "title": "國一下1-1知識點1【二元一次式的化簡】",
+        "url": "https://www.youtube.com/watch?v=LdyCd1J-KUk",
+        "chapter": "1-1"
+      },
+      {
+        "title": "國一下1-1知識點2【二元一次方程式】",
+        "url": "https://www.youtube.com/watch?v=-t4OR0siHcE",
+        "chapter": "1-1"
+      },
+      {
+        "title": "國一下1-1知識點3【二元一方程式的列式】",
+        "url": "https://www.youtube.com/watch?v=bTDrXojHyFQ",
+        "chapter": "1-1"
+      },
+      {
+        "title": "國一下1-2知識點1【解二元一次聯立方程式】",
+        "url": "https://www.youtube.com/watch?v=XuV2OO7ppfQ",
+        "chapter": "1-2"
+      },
+      {
+        "title": "國一下1-2知識點2【解二元一次聯立方程式:變化型】",
+        "url": "https://www.youtube.com/watch?v=cA-38cZJgW4",
+        "chapter": "1-2"
+      },
+      {
+        "title": "國一下1-3知識點1【二元一次應用問題】",
+        "url": "https://www.youtube.com/watch?v=agDnFwVOyC4",
+        "chapter": "1-3"
+      },
+      {
+        "title": "國一下1-3知識點2【二元一次應用問題2】",
+        "url": "https://www.youtube.com/watch?v=DM2NSbXNIBA",
+        "chapter": "1-3"
+      },
+      {
+        "title": "國一下2-1知識點1【象限與坐標】",
+        "url": "https://www.youtube.com/watch?v=GC2mzGUXYBc",
+        "chapter": "2-1"
+      },
+      {
+        "title": "國一下2-1知識點2【直角坐標平面】",
+        "url": "https://www.youtube.com/watch?v=HX8qfjpWSak",
+        "chapter": "2-1"
+      },
+      {
+        "title": "國一下2-2知識點1【二元一次方程式的圖形】",
+        "url": "https://www.youtube.com/watch?v=VjV8suevpkk",
+        "chapter": "2-2"
+      },
+      {
+        "title": "國一下2-2知識點2【直線方程式】",
+        "url": "https://www.youtube.com/watch?v=dS3zCJ_7oyo",
+        "chapter": "2-2"
+      },
+      {
+        "title": "國一下2-2知識點3【直線方程式(進階)】",
+        "url": "https://www.youtube.com/watch?v=DOUXi0dVrVo",
+        "chapter": "2-2"
+      },
+      {
+        "title": "國一下3-1知識點1【比與比值】",
+        "url": "https://www.youtube.com/watch?v=bm8fKqgC5yo",
+        "chapter": "3-1"
+      },
+      {
+        "title": "國一下3-1知識點 1【比與比值(應用)】",
+        "url": "https://www.youtube.com/watch?v=K7YJvZfT7h0",
+        "chapter": "3-1"
+      },
+      {
+        "title": "國一下3-1知識點 2【比例式】",
+        "url": "https://www.youtube.com/watch?v=kGOMzzQ92TQ",
+        "chapter": "3-1"
+      },
+      {
+        "title": "國一下3-2知識點1【正比】",
+        "url": "https://www.youtube.com/watch?v=sup0FFNP6cQ",
+        "chapter": "3-2"
+      },
+      {
+        "title": "國一下3-2知識點2【反比】",
+        "url": "https://www.youtube.com/watch?v=RKUzFGwlhh0",
+        "chapter": "3-2"
+      },
+      {
+        "title": "國一下4-1知識點1【列一元一次不等式】",
+        "url": "https://www.youtube.com/watch?v=ON5-ee8oRBQ",
+        "chapter": "4-1"
+      },
+      {
+        "title": "國一下4-2知識點1【解一元一次不等式】",
+        "url": "https://www.youtube.com/watch?v=lTkf6toho9k",
+        "chapter": "4-2"
+      },
+      {
+        "title": "國一下4-2知識點2【一元一次不等式應用問題】",
+        "url": "https://www.youtube.com/watch?v=oVtwaH9OryM",
+        "chapter": "4-2"
+      },
+      {
+        "title": "國一下5-1知識點1【統計圖表】",
+        "url": "https://www.youtube.com/watch?v=UYNwZT8_jJg",
+        "chapter": "5-1"
+      },
+      {
+        "title": "國一下5-2知識點1【平均數、中位數、眾數】",
+        "url": "https://www.youtube.com/watch?v=jWJoLALDMSE",
+        "chapter": "5-2"
+      },
+      {
+        "title": "國一下6-1知識點1【垂直與線對稱圖形】",
+        "url": "https://www.youtube.com/watch?v=cfU5JNXyZbQ",
+        "chapter": "6-1"
+      },
+      {
+        "title": "國一下6-1知識點2【三視圖】",
+        "url": "https://www.youtube.com/watch?v=kNI6vzOQH0o",
+        "chapter": "6-1"
+      },
+      {
+        "title": "[Private video]",
+        "url": "https://www.youtube.com/watch?v=AtOEmO71V34",
+        "chapter": ""
+      }
+    ]
+  },
+  {
+    "grade": "國二",
+    "semester": "上學期",
+    "videos": [
+      {
+        "title": "國二上1-1【乘法公式】知識點1",
+        "url": "https://www.youtube.com/watch?v=i9T-sAozHdE",
+        "chapter": "1-1"
+      },
+      {
+        "title": "國二上1 -1【乘法公式】知識點2",
+        "url": "https://www.youtube.com/watch?v=BZ2IkxJ2hHE",
+        "chapter": "1-1"
+      },
+      {
+        "title": "國二上1－2【多項式的加減】知識點1",
+        "url": "https://www.youtube.com/watch?v=9QQs-YPbNTw",
+        "chapter": "1-2"
+      },
+      {
+        "title": "國二上1－2【多項式的加減法】知識點2",
+        "url": "https://www.youtube.com/watch?v=DhMJ8FiobtU",
+        "chapter": "1-2"
+      },
+      {
+        "title": "國二上 1-3【多項式的乘除】知識點1",
+        "url": "https://www.youtube.com/watch?v=wgBotoXNuOw",
+        "chapter": "1-3"
+      },
+      {
+        "title": "國二上1- 3【多項式的乘除】知識點2",
+        "url": "https://www.youtube.com/watch?v=8CF069uups8",
+        "chapter": "1-3"
+      },
+      {
+        "title": "國二上2 -1【平方根與近似值】知識點1",
+        "url": "https://www.youtube.com/watch?v=3ifyPKtfEFE",
+        "chapter": "2-1"
+      },
+      {
+        "title": "國二上2 -1【平方根與近似值】知識點2",
+        "url": "https://www.youtube.com/watch?v=fjHooaV_O_E",
+        "chapter": "2-1"
+      },
+      {
+        "title": "國二上2-2【根式的運算】知識點1",
+        "url": "https://www.youtube.com/watch?v=XzrJDW-u1r4",
+        "chapter": "2-2"
+      },
+      {
+        "title": "國二上2-2【根式的運算】知識點2",
+        "url": "https://www.youtube.com/watch?v=RxEhYwDsy2A",
+        "chapter": "2-2"
+      },
+      {
+        "title": "國二上2-3【畢氏定理】知識點1",
+        "url": "https://www.youtube.com/watch?v=C3N4EuSMlRg",
+        "chapter": "2-3"
+      },
+      {
+        "title": "國二上2 -3【畢氏定理】知識點2",
+        "url": "https://www.youtube.com/watch?v=VCifYxqVmQI",
+        "chapter": "2-3"
+      },
+      {
+        "title": "國二上3-1【提公因式法與乘法公式因式分解】知識點1",
+        "url": "https://www.youtube.com/watch?v=qlanMNYt7-0",
+        "chapter": "3-1"
+      },
+      {
+        "title": "國二上3 -1【提公因式法與乘法公式因式分解】知識點2",
+        "url": "https://www.youtube.com/watch?v=mddLPhbZWFw",
+        "chapter": "3-1"
+      },
+      {
+        "title": "國二上3-2【十字交乘法因式分解】知識點1",
+        "url": "https://www.youtube.com/watch?v=ND1AasNJeb0",
+        "chapter": "3-2"
+      },
+      {
+        "title": "國二上3-2【十字交乘法因式分解】知識點2",
+        "url": "https://www.youtube.com/watch?v=zFi8GAE3SyI",
+        "chapter": "3-2"
+      },
+      {
+        "title": "國二上4 -1知識點1【因式分解解一元二次方程式】",
+        "url": "https://www.youtube.com/watch?v=BmDmZsv4CfA",
+        "chapter": "4-1"
+      },
+      {
+        "title": "國二上4 -1知識點2【方程式根與係數關係】",
+        "url": "https://www.youtube.com/watch?v=74F92Yv3VG4",
+        "chapter": "4-1"
+      },
+      {
+        "title": "國二上4－2知識點1【配方法】",
+        "url": "https://www.youtube.com/watch?v=opZx_8_9l7g",
+        "chapter": "4-2"
+      },
+      {
+        "title": "國二上4 -2知識點2【公式解】",
+        "url": "https://www.youtube.com/watch?v=htFRiHE_T4k",
+        "chapter": "4-2"
+      },
+      {
+        "title": "國二上4-3知識點1【一元二次方程式的應用】",
+        "url": "https://www.youtube.com/watch?v=BoUsZexS1tU",
+        "chapter": "4-3"
+      },
+      {
+        "title": "國二上4-3知識點2【一元二次方程式:幾何篇】",
+        "url": "https://www.youtube.com/watch?v=2glbzh6IZ_o",
+        "chapter": "4-3"
+      },
+      {
+        "title": "國二上5-1知識點1【統計圖表】",
+        "url": "https://www.youtube.com/watch?v=C2mtKPG1k0w",
+        "chapter": "5-1"
+      },
+      {
+        "title": "國二上5 -1知識點2【相對次數與累積相對次數】",
+        "url": "https://www.youtube.com/watch?v=_x52sNohvw8",
+        "chapter": "5-1"
+      },
+      {
+        "title": "【國二上三段講義題目勘誤】",
+        "url": "https://www.youtube.com/watch?v=aVo7e46O-Xs",
+        "chapter": ""
+      }
+    ]
+  },
+  {
+    "grade": "國二",
+    "semester": "下學期",
+    "videos": [
+      {
+        "title": "國二下1-1知識點1【數列(等差基礎)】",
+        "url": "https://www.youtube.com/watch?v=lfJWT8fQ524",
+        "chapter": "1-1"
+      },
+      {
+        "title": "國二下1-1知識點2【等差數列(應用問題)】",
+        "url": "https://www.youtube.com/watch?v=3QHUl-xtoxc",
+        "chapter": "1-1"
+      },
+      {
+        "title": "國二下1-1知識點3【等比數列】",
+        "url": "https://www.youtube.com/watch?v=OYguKswWamM",
+        "chapter": "1-1"
+      },
+      {
+        "title": "國二下1-2知識點1【等差級數:基礎篇】",
+        "url": "https://www.youtube.com/watch?v=0q2fKebbvPc",
+        "chapter": "1-2"
+      },
+      {
+        "title": "國二下1 -2知識點2【等差級數:進階篇】",
+        "url": "https://www.youtube.com/watch?v=4-qLowE9QDk",
+        "chapter": "1-2"
+      },
+      {
+        "title": "國二下1-2知識點3【等差級數:活用篇】",
+        "url": "https://www.youtube.com/watch?v=bo_u9o6QtpM",
+        "chapter": "1-2"
+      },
+      {
+        "title": "國二下2-1知識點1【函數判斷】",
+        "url": "https://www.youtube.com/watch?v=OphdL0gixWM",
+        "chapter": "2-1"
+      },
+      {
+        "title": "國二下2-1知識點2【線型函數】",
+        "url": "https://www.youtube.com/watch?v=57UeKsNc-ew",
+        "chapter": "2-1"
+      },
+      {
+        "title": "國二下3-1知識點1【三角形的內角與外角】",
+        "url": "https://www.youtube.com/watch?v=wS5las4myVg",
+        "chapter": "3-1"
+      },
+      {
+        "title": "國二下3-1知識點2【多邊形的內、外角】",
+        "url": "https://www.youtube.com/watch?v=EiYC7L6CS70",
+        "chapter": "3-1"
+      },
+      {
+        "title": "國二下3 -1知識點3【正多邊形的內角與外角】",
+        "url": "https://www.youtube.com/watch?v=tcW5qCGPJfg",
+        "chapter": "3-1"
+      },
+      {
+        "title": "國二下3-2知識點1【尺規作圖1】",
+        "url": "https://www.youtube.com/watch?v=Bh7NZrc_aBY",
+        "chapter": "3-2"
+      },
+      {
+        "title": "國二下3-2知識點2【尺規作圖2】",
+        "url": "https://www.youtube.com/watch?v=ElaVSFyrIAw",
+        "chapter": "3-2"
+      },
+      {
+        "title": "國二下3-3知識點1【三角形全等性質】",
+        "url": "https://www.youtube.com/watch?v=A0IH4ICiMlo",
+        "chapter": "3-3"
+      },
+      {
+        "title": "國二下3-3知識點2【三角形全等性質應用】",
+        "url": "https://www.youtube.com/watch?v=Qbza5-Ducis",
+        "chapter": "3-3"
+      },
+      {
+        "title": "國二下3-4知識點1【中垂線與角平分線性質】",
+        "url": "https://www.youtube.com/watch?v=zy6k_MLzqtE",
+        "chapter": "3-4"
+      },
+      {
+        "title": "國二下3-5知識點1【三角形的邊角關係】",
+        "url": "https://www.youtube.com/watch?v=b40OrPJ2yOQ",
+        "chapter": "3-5"
+      },
+      {
+        "title": "國二下3-5知識點2【樞紐定理】",
+        "url": "https://www.youtube.com/watch?v=K3cmCVmPjEI",
+        "chapter": "3-5"
+      },
+      {
+        "title": "國二下4-1知識點1【平行線】",
+        "url": "https://www.youtube.com/watch?v=JYCun4iB2GE",
+        "chapter": "4-1"
+      },
+      {
+        "title": "國二下4-1知識點2【平行線截角性質】",
+        "url": "https://www.youtube.com/watch?v=dbdpJSvzimI",
+        "chapter": "4-1"
+      },
+      {
+        "title": "國二下4-2知識點1【平行四邊形】",
+        "url": "https://www.youtube.com/watch?v=8nMUDggdH1Q",
+        "chapter": "4-2"
+      },
+      {
+        "title": "國二下4-2知識點2【平行四邊形應用】",
+        "url": "https://www.youtube.com/watch?v=rdVwWrNRW7E",
+        "chapter": "4-2"
+      },
+      {
+        "title": "國二下4-3知識點1【特殊四邊形】",
+        "url": "https://www.youtube.com/watch?v=VDyhBxM_wq0",
+        "chapter": "4-3"
+      },
+      {
+        "title": "國二下4-3知識點2【梯形】",
+        "url": "https://www.youtube.com/watch?v=_tvepMgGF9E",
+        "chapter": "4-3"
+      }
+    ]
+  },
+  {
+    "grade": "國三",
+    "semester": "下學期",
+    "videos": [
+      {
+        "title": "國三下 1-1【二次函數】知識點1",
+        "url": "https://www.youtube.com/watch?v=eaiDyDX7MyI",
+        "chapter": "1-1"
+      },
+      {
+        "title": "國三下 1-2【二次函數的極值與圖形】知識點1",
+        "url": "https://www.youtube.com/watch?v=q1xt_j8KghI",
+        "chapter": "1-2"
+      },
+      {
+        "title": "國三下 1-2【二次函數的極值與圖形】知識點2",
+        "url": "https://www.youtube.com/watch?v=YHOGP2kJV8c",
+        "chapter": "1-2"
+      },
+      {
+        "title": "國三下 2-1【四分位數與盒狀圖】知識點1",
+        "url": "https://www.youtube.com/watch?v=Rt7cdsSWQgM",
+        "chapter": "2-1"
+      },
+      {
+        "title": "國三下 2-2【機率】知識點1",
+        "url": "https://www.youtube.com/watch?v=hBVFyCgHbeY",
+        "chapter": "2-2"
+      },
+      {
+        "title": "國三下 3-1【角柱】知識點1",
+        "url": "https://www.youtube.com/watch?v=2bhJXM1cqek",
+        "chapter": "3-1"
+      },
+      {
+        "title": "國三下 3-2【角錐】知識點1",
+        "url": "https://www.youtube.com/watch?v=rbkZT0oILQY",
+        "chapter": "3-2"
+      }
+    ]
+  }
+]
